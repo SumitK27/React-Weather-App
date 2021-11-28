@@ -17,7 +17,9 @@ A web app that shows you the current weather of your location and lets you searc
 1. Clone the repository.
 2. Navigate to the folder.
 3. Run `npm install` to install all the dependencies.
-4. Run `npm start` to launch the app.
+4. Rename `example.env` to `.env`.
+5. Add your OpenWeatherMap API Key in `.env` file.
+6. Run `npm start` to launch the app.
 
 ## **ToDos**
 

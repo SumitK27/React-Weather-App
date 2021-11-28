@@ -35,6 +35,7 @@ function App() {
 
     useEffect(() => {
         navigator.geolocation.getCurrentPosition(success, error, options);
+        // eslint-disable-next-line
     }, []);
 
     const search = (evt) => {
